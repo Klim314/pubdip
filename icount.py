@@ -26,7 +26,7 @@ if not os.path.exists("output/abcheck"):
 	os.mkdir("output/abcheck")
 
 outdir = "output/abcheck/"
-
+-
 """
 Negative terms and stemmer system
 """

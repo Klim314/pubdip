@@ -1,0 +1,45 @@
+#negTerm: (Antagonistic| Antagonises| Antagonise| Antagonizes| inhibits| inhibiting| Inhibition| inhibitory|     outcompeted| lethal| sublethal| KILLING| kills| predator| anticorrelated| lysed| lyses| competing| competition|      competed| suppressed|  bacteriocin|  bacteriocin| bacteriocins|       antibacterial | viability)
+#row1-3: raw query | both species, species 1, species 2
+#row4-6: with negTerm | both species, species 1, species 2
+lactobacillus acidophilus	escherichia coli	413
+lactobacillus acidophilus	 	3055
+escherichia coli	 	325713
+lactobacillus acidophilus	escherichia coli	176
+lactobacillus acidophilus	 	1001
+escherichia coli	 	78856
+Actinomyces coleocanis	Dermacoccus sp.	0
+Actinomyces coleocanis	 	1
+Dermacoccus sp.	 	12
+Actinomyces coleocanis	Dermacoccus sp.	0
+Actinomyces coleocanis	 	0
+Dermacoccus sp.	 	3
+Actinomyces coleocanis	Pseudomonas syringae	0
+Actinomyces coleocanis	 	1
+Pseudomonas syringae	 	3599
+Actinomyces coleocanis	Pseudomonas syringae	0
+Actinomyces coleocanis	 	0
+Pseudomonas syringae	 	717
+Actinomyces sp.	Bacteroides coprocola	0
+Actinomyces sp.	 	6713
+Bacteroides coprocola	 	3
+Actinomyces sp.	Bacteroides coprocola	0
+Actinomyces sp.	 	1961
+Bacteroides coprocola	 	0
+Actinomyces sp.	Bacteroides coprosuis	0
+Actinomyces sp.	 	6713
+Bacteroides coprosuis	 	4
+Actinomyces sp.	Bacteroides coprosuis	0
+Actinomyces sp.	 	1961
+Bacteroides coprosuis	 	0
+Actinomyces sp.	Bacteroides finegoldii	0
+Actinomyces sp.	 	6713
+Bacteroides finegoldii	 	7
+Actinomyces sp.	Bacteroides finegoldii	0
+Actinomyces sp.	 	1961
+Bacteroides finegoldii	 	0
+Actinomyces sp.	Bacteroides sp.	37
+Actinomyces sp.	 	6713
+Bacteroides sp.	 	762
+Actinomyces sp.	Bacteroides sp.	11
+Actinomyces sp.	 	1961
+Bacteroides sp.	 	234
