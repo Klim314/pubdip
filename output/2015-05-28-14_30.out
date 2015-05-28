@@ -1,0 +1,3 @@
+#negTerm: (Antagonistic| Antagonises| Antagonise| Antagonizes| inhibits| inhibiting| Inhibition| inhibitory|     outcompeted| lethal| sublethal| KILLING| kills| predator| anticorrelated| lysed| lyses| competing| competition|      competed| suppressed|  bacteriocin|  bacteriocin| bacteriocins|       antibacterial | viability)
+#row1-3: raw query | both species, species 1, species 2
+#row4-6: with negTerm | both species, species 1, species 2 
