@@ -1,0 +1,11 @@
+#negTerm: (Antagonistic| Antagonises| Antagonise| Antagonizes| inhibits| inhibiting| Inhibition| inhibitory|     outcompeted| lethal| sublethal| KILLING| kills| predator| anticorrelated| lysed| lyses| competing| competition|      competed| suppressed|  bacteriocin|  bacteriocin| bacteriocins|       antibacterial | viability)
+#row1-3: raw query | both species, species 1, species 2
+#row4-6: with negTerm | both species, species 1, species 2
+#Target File:input/smallSpecies
+Actinomyces coleocanis	Dermacoccus sp.	0
+Actinomyces sp.	Bacteroides coprocola	0
+Actinomyces sp.	Bacteroides finegoldii	0
+Actinomyces sp.	Bacteroides coprosuis	0
+lactobacillus acidophilus	escherichia coli	415
+Actinomyces coleocanis	Pseudomonas syringae	0
+Actinomyces sp.	Bacteroides sp.	37

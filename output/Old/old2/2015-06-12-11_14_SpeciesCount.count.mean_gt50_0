@@ -1,0 +1,76 @@
+#negTerm: (Antagon*|outcompet*| lethal| sublethal| kill*| predat*| anticorrelated| lyse*| compet*|suppress*|  bacteriocin*|antibacterial | viab*)
+#row1-3: raw query | both species, species 1, species 2
+#row4-6: with negTerm | both species, species 1, species 2
+#Target File:input/tests/SpeciesCount.count.mean_gt50/SpeciesCount.count.mean_gt50_0.pairs
+Eubacterium dolichum	Turicibacter sanguinis	0
+Eubacterium dolichum	 	2
+Turicibacter sanguinis	 	3
+Eubacterium dolichum	Turicibacter sanguinis	0
+Eubacterium dolichum	 	1
+Turicibacter sanguinis	 	0
+Eubacterium dolichum	Enterococcus casseliflavus	0
+Eubacterium dolichum	 	2
+Enterococcus casseliflavus	 	389
+Eubacterium dolichum	Enterococcus casseliflavus	0
+Eubacterium dolichum	 	1
+Enterococcus casseliflavus	 	187
+Eubacterium dolichum	Brachyspira pilosicoli	0
+Eubacterium dolichum	 	2
+Brachyspira pilosicoli	 	240
+Eubacterium dolichum	Brachyspira pilosicoli	0
+Eubacterium dolichum	 	1
+Brachyspira pilosicoli	 	41
+Eubacterium dolichum	Streptococcus gallolyticus	0
+Eubacterium dolichum	 	2
+Streptococcus gallolyticus	 	157
+Eubacterium dolichum	Streptococcus gallolyticus	0
+Eubacterium dolichum	 	1
+Streptococcus gallolyticus	 	39
+Eubacterium dolichum	Salmonella enterica	0
+Eubacterium dolichum	 	2
+Salmonella enterica	 	40866
+Eubacterium dolichum	Salmonella enterica	0
+Eubacterium dolichum	 	1
+Salmonella enterica	 	10949
+Eubacterium dolichum	Macrococcus caseolyticus	0
+Eubacterium dolichum	 	2
+Macrococcus caseolyticus	 	23
+Eubacterium dolichum	Macrococcus caseolyticus	0
+Eubacterium dolichum	 	1
+Macrococcus caseolyticus	 	4
+Eubacterium dolichum	Desulfovibrio piger	0
+Eubacterium dolichum	 	2
+Desulfovibrio piger	 	19
+Eubacterium dolichum	Desulfovibrio piger	0
+Eubacterium dolichum	 	1
+Desulfovibrio piger	 	3
+Eubacterium dolichum	Phascolarctobacterium succinatutens	0
+Eubacterium dolichum	 	2
+Phascolarctobacterium succinatutens	 	1
+Eubacterium dolichum	Phascolarctobacterium succinatutens	0
+Eubacterium dolichum	 	1
+Phascolarctobacterium succinatutens	 	0
+Eubacterium dolichum	Lactococcus lactis	0
+Eubacterium dolichum	 	2
+Lactococcus lactis	 	4963
+Eubacterium dolichum	Lactococcus lactis	0
+Eubacterium dolichum	 	1
+Lactococcus lactis	 	1472
+Eubacterium dolichum	Alkaliphilus metalliredigens	0
+Eubacterium dolichum	 	2
+Alkaliphilus metalliredigens	 	6
+Eubacterium dolichum	Alkaliphilus metalliredigens	0
+Eubacterium dolichum	 	1
+Alkaliphilus metalliredigens	 	1
+Eubacterium dolichum	Bacteroides salanitronis	0
+Eubacterium dolichum	 	2
+Bacteroides salanitronis	 	4
+Eubacterium dolichum	Bacteroides salanitronis	0
+Eubacterium dolichum	 	1
+Bacteroides salanitronis	 	0
+Eubacterium dolichum	Neisseria subflava	0
+Eubacterium dolichum	 	2
+Neisseria subflava	 	117
+Eubacterium dolichum	Neisseria subflava	0
+Eubacterium dolichum	 	1
+Neisseria subflava	 	26

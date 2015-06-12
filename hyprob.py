@@ -1,4 +1,4 @@
-#!usr/bin/env python
+#!usr/bin/env python3
 from scipy.misc import comb
 import scipy.stats as stats
 
@@ -7,7 +7,7 @@ import scipy.stats as stats
 #?////////////
 
 # TARGET FILE
-targetName = "2015-05-27-13_26e-9_r-0.19_papercounts.out"
+targetName = "2015-06-04-13_52.out"
 target = "input/" + targetName
 output = "output/hyprob" + targetName
 
@@ -75,8 +75,7 @@ def hyprob(tup, bone = 4000):
 	res = stats.hypergeom.pmf(tSample, population, tPopulation, sample)
 	print(res)
 	#quick hack to grab negative relationships only
-	
-	if sample > 0 and tSample/sample < 0.01:
+	if sample > 0 and tSample/sample < 0.001:
 		return 10
 	return res*bone
 

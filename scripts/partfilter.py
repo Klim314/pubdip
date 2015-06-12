@@ -12,7 +12,15 @@ def readTSV(target):
 		tsvin = csv.reader(f, delimiter = '\t')
 
 		for i in tsvin:
-			holder.append(i)
+			try:
+				if len(i) < 3:
+					print("ERROR: ", i)
+					continue
+				holder.append(i)
+			except:
+				print("ERROR: ", i)
+				continue
+
 	return holder
 
 
@@ -36,10 +44,12 @@ if __name__ == "__main__":
 	parser.add_argument("-d", "--debug", action = "store_true", default = False, help = "Enable debug mode")
 	args = parser.parse_args()
 
+	inFile = args.target
+
 	if args.output:
 		outFile = args.output
 	else:
-		inFile = args.target
+		
 		splitPath = os.path.split(args.target)
 		outDir = "output/"
 		fileName = splitPath[1]

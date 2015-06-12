@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
 """
-pubdip.py:
-    Takes in a tsv consisting of multiple lines of TSV'd terms. Joins them with 'AND' and uses as the base query
+pubdip.py: 
+   Takes in a tsv consisting of multiple lines of TSV'd terms. Joins them with 'AND' and uses as the base query
 
     The base query, along with a negTerm variant, is then submitted to the entrez database.
 
@@ -11,13 +11,12 @@ pubdip.py:
 
 
 from Bio import Entrez, Medline
-
-from time import strftime, sleep
+from time import strftime
 import os
-import sys
-
 from urllib.error import HTTPError
 import multiprocessing
+
+
 
 """
 pubmedCount:
@@ -29,17 +28,23 @@ pubmedCount:
         term1 AND term3
         term2 AND term3
         
-    returns a list of 6tuples
+    returns the above terms asa  list of 6-tuples
 """
-def pubmedCount(term1, term2, term3, retry = 0, debug = 0):
+def pubmedCount(term1, term2, term3, termDict, retry = 0, debug = 0):
     def getCount(query):
+        if query in termDict:
+            return termDict[query]
         handle = Entrez.esearch(db = "pubmed", term = query)
         record = Entrez.read(handle)
         count = record["Count"]
+        
         if debug:
             print("GETCOUNT query: ", query)
             print("COUNT = ", count)
+        
+        termDict[query] = count
         return count
+
     Entrez.email = "kmklim@gis.a-star.edu.sg"
 
     baseQuery = ' '.join([term1, "AND", term2])
@@ -60,7 +65,14 @@ def pubmedCount(term1, term2, term3, retry = 0, debug = 0):
             return pubmedCount(term1, term2, term3, retry + 1, debug)
         else:
             print("ERROR: UNABLE TO QUERY ", term1, " | ", term2, )
-    return result
+    
+    print("RESULT:", result)
+    with open(rawOut, 'a') as f:
+        for i in result:
+            f.write("\t".join(i) + '\n')
+    with open(twoOut, 'a') as f:
+        f.write("\t".join(result[0]) + '\n')
+    return
 
 """
 readfile:
@@ -73,7 +85,7 @@ readfile:
     if genus is not specified, can be used for any paired data
 """
 
-def readFile(fileName, genus = 0):
+def readFile(fileName, negTerm, genus = 0):
     lst = []
     glst = set()
         
@@ -92,7 +104,17 @@ def readFile(fileName, genus = 0):
         return list(glst)
     return lst
 
+"""
+execute:
+    execution script for the whole package
+    takes in a list containing ALL combinations of [T1, T2, T3] wanted for pubmedCount and the number of cores to use
+
+    returns 
+"""
 def execute(terms, cores):
+    termDict = dict()
+    [i.append(termDict) for i in terms]
+
     with multiprocessing.Pool(cores) as pool:
             mappedRuns = pool.starmap(pubmedCount, terms) 
     return mappedRuns
@@ -134,16 +156,20 @@ if __name__ == "__main__":
     Negative terms
         These are the query terms (term3) submitted along side the species
     """
-    #negTerm = "(inhibit | inhibits | inhibition | inhibited) "
-    negTerm = "(Antagonistic| Antagonises| Antagonise| Antagonizes| inhibits| inhibiting| Inhibition| inhibitory| \
-        outcompeted| lethal| sublethal| KILLING| kills| predator| anticorrelated| lysed| lyses| competing| competition| \
-         competed| suppressed|  bacteriocin|  bacteriocin| bacteriocins|  \
-         antibacterial | viability)"
+    negTerm = "(inhibit | inhibits | inhibition | inhibited) "
+    # negTerm = "(Antagonistic| Antagonises| Antagonise| Antagonizes| inhibits| inhibiting| Inhibition| inhibitory|" 
+    #     "outcompeted| lethal| sublethal| KILLING| kills| predator| anticorrelated| lysed| lyses| competing| competition|"
+    #      "competed| competes | suppressed|  bacteriocin|  bacteriocin| bacteriocins|"
+    #      "antibacterial | viability)"
+    negTerm = ("(Antagon*|" 
+            "outcompet*| lethal| sublethal| kill*| predat*| anticorrelated| lyse*| compet*|"
+            "suppress*|  bacteriocin*|"
+            "antibacterial | viab*)")
 
     outDir = "output/"
     baseName = strftime("%Y-%m-%d-%H_%M") + ".out"
     rawOut = outDir + baseName
-    twoOut = outDir + "twocount_" +baseName
+    twoOut = outDir + "twocount_noin_" +baseName
     sumOut = outDir + "sum_" + baseName
     print("-----Output Names------")
     print(rawOut)
@@ -152,13 +178,35 @@ if __name__ == "__main__":
     if not os.path.exists("output"):
         os.makedirs("output")
 
+
+    with open(rawOut, 'w') as f:
+        f.write("#negTerm: " + negTerm + '\n'
+                "#row1-3: raw query | both species, species 1, species 2\n"
+                "#row4-6: with negTerm | both species, species 1, species 2\n"
+                "#Target File:" + target + "\n"
+            )
+    with open(sumOut, 'w') as f:
+        f.write("#negTerm: " + negTerm + '\n'
+                "#row1-3: raw query | both species, species 1, species 2\n"
+                "#row4-6: with negTerm | both species, species 1, species 2\n"
+                "#Target File:" + target + "\n"
+            )
+    with open(twoOut, 'w') as f:
+        f.write("#negTerm: " + negTerm + '\n'
+                "#row1-3: raw query | both species, species 1, species 2\n"
+                "#row4-6: with negTerm | both species, species 1, species 2\n"
+                "#Target File:" + target + "\n"
+            )
+
+    paperSum = 0
+
     #/////////////////////
     #  END INITIAL SETUP
     #/////////////////////
 
-    lst = readFile(target, args.genus)
+    lst = readFile(target, negTerm, args.genus)
 
-    print([i[:2] for i in lst])
+    print([i for i in lst])
     mappedRuns = execute(lst, cores)
 
     #///////////////#
@@ -166,21 +214,27 @@ if __name__ == "__main__":
     #///////////////#
 
 
-    with open(rawOut, 'w') as f:
-        f.write("#negTerm: (Antagonistic| Antagonises| Antagonise| Antagonizes| inhibits| inhibiting| Inhibition| inhibitory|     outcompeted| lethal| sublethal| KILLING| kills| predator| anticorrelated| lysed| lyses| competing| competition|      competed| suppressed|  bacteriocin|  bacteriocin| bacteriocins|       antibacterial | viability)\n"
-                "#row1-3: raw query | both species, species 1, species 2\n"
-                "#row4-6: with negTerm | both species, species 1, species 2\n"
-            )
-        for i in mappedRuns:
-            for j in i:
-                f.write("\t".join(j) + '\n')
+    # with open(rawOut, 'w') as f:
+    #     f.write("#negTerm: (Antagonistic| Antagonises| Antagonise| Antagonizes| inhibits| inhibiting| Inhibition| inhibitory|     outcompeted| lethal| sublethal| KILLING| kills| predator| anticorrelated| lysed| lyses| competing| competition|      competed| suppressed|  bacteriocin|  bacteriocin| bacteriocins|       antibacterial | viability)\n"
+    #             "#row1-3: raw query | both species, species 1, species 2\n"
+    #             "#row4-6: with negTerm | both species, species 1, species 2\n"
+    #         )
+    #     for i in mappedRuns:
+    #         for j in i:
+    #             f.write("\t".join(j) + '\n')
 
-    paperSum = 0
+    # paperSum = 0
 
-    with open(twoOut, 'w') as f:
-        for i in mappedRuns:
-            paperSum += int(i[0][-1])
-            f.write("\t".join(i[0]) + '\n')
+    # with open(twoOut, 'w') as f:
+    #     for i in mappedRuns:
+    #         paperSum += int(i[0][-1])
+    #         f.write("\t".join(i[0]) + '\n')
 
-    with open(sumOut, 'w') as f:
+    with open(twoOut) as f:
+        for i in f:
+            if i[0] == "#":
+                continue
+            paperSum += int(i.strip().split('\t')[-1])
+
+    with open(sumOut, 'a') as f:
         f.write(str(paperSum))

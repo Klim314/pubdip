@@ -1,0 +1,604 @@
+#negTerm: (Antagon*|outcompet*| lethal| sublethal| kill*| predat*| anticorrelated| lyse*| compet*|suppress*|  bacteriocin*|antibacterial | viab*)
+#row1-3: raw query | both species, species 1, species 2
+#row4-6: with negTerm | both species, species 1, species 2
+#Target File:input/100species/100species_0
+Prochlorococcus marinus	Candidatus Desulforudis	0
+Prochlorococcus marinus	 	84
+Candidatus Desulforudis	 	5
+Prochlorococcus marinus	Candidatus Desulforudis	0
+Prochlorococcus marinus	 	2
+Candidatus Desulforudis	 	0
+Prochlorococcus marinus	Kordia algicida	0
+Prochlorococcus marinus	 	84
+Kordia algicida	 	8
+Prochlorococcus marinus	Kordia algicida	0
+Prochlorococcus marinus	 	2
+Kordia algicida	 	1
+Prochlorococcus marinus	Clostridium sp.	0
+Prochlorococcus marinus	 	84
+Clostridium sp.	 	1042
+Prochlorococcus marinus	Clostridium sp.	0
+Prochlorococcus marinus	 	2
+Clostridium sp.	 	220
+Prochlorococcus marinus	Thalassiobium sp.	29
+Prochlorococcus marinus	 	84
+Thalassiobium sp.	 	159134
+Prochlorococcus marinus	Thalassiobium sp.	2
+Prochlorococcus marinus	 	2
+Thalassiobium sp.	 	23737
+Prochlorococcus marinus	Weissella koreensis	0
+Prochlorococcus marinus	 	84
+Weissella koreensis	 	16
+Prochlorococcus marinus	Weissella koreensis	0
+Prochlorococcus marinus	 	2
+Weissella koreensis	 	3
+Prochlorococcus marinus	Pseudomonas stutzeri	0
+Prochlorococcus marinus	 	84
+Pseudomonas stutzeri	 	970
+Prochlorococcus marinus	Pseudomonas stutzeri	0
+Prochlorococcus marinus	 	2
+Pseudomonas stutzeri	 	167
+Prochlorococcus marinus	Frankia sp.	0
+Prochlorococcus marinus	 	84
+Frankia sp.	 	93
+Prochlorococcus marinus	Frankia sp.	0
+Prochlorococcus marinus	 	2
+Frankia sp.	 	5
+Prochlorococcus marinus	Geobacter metallireducens	0
+Prochlorococcus marinus	 	84
+Geobacter metallireducens	 	138
+Prochlorococcus marinus	Geobacter metallireducens	0
+Prochlorococcus marinus	 	2
+Geobacter metallireducens	 	10
+Prochlorococcus marinus	Lacinutrix sp.	0
+Prochlorococcus marinus	 	84
+Lacinutrix sp.	 	10
+Prochlorococcus marinus	Lacinutrix sp.	0
+Prochlorococcus marinus	 	2
+Lacinutrix sp.	 	0
+Prochlorococcus marinus	Bacteroides salanitronis	0
+Prochlorococcus marinus	 	84
+Bacteroides salanitronis	 	4
+Prochlorococcus marinus	Bacteroides salanitronis	0
+Prochlorococcus marinus	 	2
+Bacteroides salanitronis	 	0
+Prochlorococcus marinus	Eubacterium dolichum	0
+Prochlorococcus marinus	 	84
+Eubacterium dolichum	 	2
+Prochlorococcus marinus	Eubacterium dolichum	0
+Prochlorococcus marinus	 	2
+Eubacterium dolichum	 	1
+Prochlorococcus marinus	Dorea longicatena	0
+Prochlorococcus marinus	 	84
+Dorea longicatena	 	2
+Prochlorococcus marinus	Dorea longicatena	0
+Prochlorococcus marinus	 	2
+Dorea longicatena	 	1
+Prochlorococcus marinus	Streptococcus infantis	0
+Prochlorococcus marinus	 	84
+Streptococcus infantis	 	74
+Prochlorococcus marinus	Streptococcus infantis	0
+Prochlorococcus marinus	 	2
+Streptococcus infantis	 	29
+Prochlorococcus marinus	Methanococcus voltae	0
+Prochlorococcus marinus	 	84
+Methanococcus voltae	 	156
+Prochlorococcus marinus	Methanococcus voltae	0
+Prochlorococcus marinus	 	2
+Methanococcus voltae	 	21
+Prochlorococcus marinus	Turicibacter sanguinis	0
+Prochlorococcus marinus	 	84
+Turicibacter sanguinis	 	3
+Prochlorococcus marinus	Turicibacter sanguinis	0
+Prochlorococcus marinus	 	2
+Turicibacter sanguinis	 	0
+Prochlorococcus marinus	Lactobacillus jensenii	0
+Prochlorococcus marinus	 	84
+Lactobacillus jensenii	 	182
+Prochlorococcus marinus	Lactobacillus jensenii	0
+Prochlorococcus marinus	 	2
+Lactobacillus jensenii	 	54
+Prochlorococcus marinus	halophilic archaeon	0
+Prochlorococcus marinus	 	84
+halophilic archaeon	 	4257
+Prochlorococcus marinus	halophilic archaeon	0
+Prochlorococcus marinus	 	2
+halophilic archaeon	 	421
+Prochlorococcus marinus	Cyanothece sp.	1
+Prochlorococcus marinus	 	84
+Cyanothece sp.	 	94
+Prochlorococcus marinus	Cyanothece sp.	0
+Prochlorococcus marinus	 	2
+Cyanothece sp.	 	6
+Prochlorococcus marinus	Enterococcus casseliflavus	0
+Prochlorococcus marinus	 	84
+Enterococcus casseliflavus	 	389
+Prochlorococcus marinus	Enterococcus casseliflavus	0
+Prochlorococcus marinus	 	2
+Enterococcus casseliflavus	 	187
+Prochlorococcus marinus	Glaciecola sp.	0
+Prochlorococcus marinus	 	84
+Glaciecola sp.	 	27
+Prochlorococcus marinus	Glaciecola sp.	0
+Prochlorococcus marinus	 	2
+Glaciecola sp.	 	2
+Prochlorococcus marinus	Bacillus sp.	1
+Prochlorococcus marinus	 	84
+Bacillus sp.	 	4244
+Prochlorococcus marinus	Bacillus sp.	0
+Prochlorococcus marinus	 	2
+Bacillus sp.	 	1014
+Prochlorococcus marinus	gamma proteobacterium	0
+Prochlorococcus marinus	 	84
+gamma proteobacterium	 	213
+Prochlorococcus marinus	gamma proteobacterium	0
+Prochlorococcus marinus	 	2
+gamma proteobacterium	 	26
+Prochlorococcus marinus	Anaplasma centrale	0
+Prochlorococcus marinus	 	84
+Anaplasma centrale	 	133
+Prochlorococcus marinus	Anaplasma centrale	0
+Prochlorococcus marinus	 	2
+Anaplasma centrale	 	16
+Prochlorococcus marinus	Halothiobacillus neapolitanus	0
+Prochlorococcus marinus	 	84
+Halothiobacillus neapolitanus	 	58
+Prochlorococcus marinus	Halothiobacillus neapolitanus	0
+Prochlorococcus marinus	 	2
+Halothiobacillus neapolitanus	 	6
+Prochlorococcus marinus	Burkholderia ambifaria	0
+Prochlorococcus marinus	 	84
+Burkholderia ambifaria	 	62
+Prochlorococcus marinus	Burkholderia ambifaria	0
+Prochlorococcus marinus	 	2
+Burkholderia ambifaria	 	11
+Prochlorococcus marinus	Mycobacterium leprae	0
+Prochlorococcus marinus	 	84
+Mycobacterium leprae	 	6423
+Prochlorococcus marinus	Mycobacterium leprae	0
+Prochlorococcus marinus	 	2
+Mycobacterium leprae	 	1857
+Prochlorococcus marinus	Rickettsia endosymbiont	0
+Prochlorococcus marinus	 	84
+Rickettsia endosymbiont	 	956
+Prochlorococcus marinus	Rickettsia endosymbiont	0
+Prochlorococcus marinus	 	2
+Rickettsia endosymbiont	 	172
+Prochlorococcus marinus	Mycoplasma hyorhinis	0
+Prochlorococcus marinus	 	84
+Mycoplasma hyorhinis	 	400
+Prochlorococcus marinus	Mycoplasma hyorhinis	0
+Prochlorococcus marinus	 	2
+Mycoplasma hyorhinis	 	63
+Prochlorococcus marinus	Desulfotalea psychrophila	0
+Prochlorococcus marinus	 	84
+Desulfotalea psychrophila	 	13
+Prochlorococcus marinus	Desulfotalea psychrophila	0
+Prochlorococcus marinus	 	2
+Desulfotalea psychrophila	 	0
+Prochlorococcus marinus	Cylindrospermopsis raciborskii	0
+Prochlorococcus marinus	 	84
+Cylindrospermopsis raciborskii	 	194
+Prochlorococcus marinus	Cylindrospermopsis raciborskii	0
+Prochlorococcus marinus	 	2
+Cylindrospermopsis raciborskii	 	34
+Prochlorococcus marinus	Ferrimonas balearica	0
+Prochlorococcus marinus	 	84
+Ferrimonas balearica	 	6
+Prochlorococcus marinus	Ferrimonas balearica	0
+Prochlorococcus marinus	 	2
+Ferrimonas balearica	 	1
+Prochlorococcus marinus	Streptococcus mitis	0
+Prochlorococcus marinus	 	84
+Streptococcus mitis	 	1466
+Prochlorococcus marinus	Streptococcus mitis	0
+Prochlorococcus marinus	 	2
+Streptococcus mitis	 	476
+Prochlorococcus marinus	Yersinia enterocolitica	0
+Prochlorococcus marinus	 	84
+Yersinia enterocolitica	 	5591
+Prochlorococcus marinus	Yersinia enterocolitica	0
+Prochlorococcus marinus	 	2
+Yersinia enterocolitica	 	1156
+Prochlorococcus marinus	Helicobacter pylori	0
+Prochlorococcus marinus	 	84
+Helicobacter pylori	 	36481
+Prochlorococcus marinus	Helicobacter pylori	0
+Prochlorococcus marinus	 	2
+Helicobacter pylori	 	10075
+Prochlorococcus marinus	Brachyspira pilosicoli	0
+Prochlorococcus marinus	 	84
+Brachyspira pilosicoli	 	240
+Prochlorococcus marinus	Brachyspira pilosicoli	0
+Prochlorococcus marinus	 	2
+Brachyspira pilosicoli	 	41
+Prochlorococcus marinus	Borrelia valaisiana	0
+Prochlorococcus marinus	 	84
+Borrelia valaisiana	 	201
+Prochlorococcus marinus	Borrelia valaisiana	0
+Prochlorococcus marinus	 	2
+Borrelia valaisiana	 	13
+Prochlorococcus marinus	Bacteroides eggerthii	0
+Prochlorococcus marinus	 	84
+Bacteroides eggerthii	 	35
+Prochlorococcus marinus	Bacteroides eggerthii	0
+Prochlorococcus marinus	 	2
+Bacteroides eggerthii	 	10
+Prochlorococcus marinus	Idiomarina sp.	0
+Prochlorococcus marinus	 	84
+Idiomarina sp.	 	537
+Prochlorococcus marinus	Idiomarina sp.	0
+Prochlorococcus marinus	 	2
+Idiomarina sp.	 	62
+Prochlorococcus marinus	Campylobacter lari	0
+Prochlorococcus marinus	 	84
+Campylobacter lari	 	314
+Prochlorococcus marinus	Campylobacter lari	0
+Prochlorococcus marinus	 	2
+Campylobacter lari	 	55
+Prochlorococcus marinus	Pedobacter heparinus	0
+Prochlorococcus marinus	 	84
+Pedobacter heparinus	 	26
+Prochlorococcus marinus	Pedobacter heparinus	0
+Prochlorococcus marinus	 	2
+Pedobacter heparinus	 	1
+Prochlorococcus marinus	Leptospira interrogans	0
+Prochlorococcus marinus	 	84
+Leptospira interrogans	 	2451
+Prochlorococcus marinus	Leptospira interrogans	0
+Prochlorococcus marinus	 	2
+Leptospira interrogans	 	330
+Prochlorococcus marinus	Novosphingobium aromaticivorans	1
+Prochlorococcus marinus	 	84
+Novosphingobium aromaticivorans	 	58
+Prochlorococcus marinus	Novosphingobium aromaticivorans	0
+Prochlorococcus marinus	 	2
+Novosphingobium aromaticivorans	 	7
+Prochlorococcus marinus	Xanthomonas oryzae	0
+Prochlorococcus marinus	 	84
+Xanthomonas oryzae	 	705
+Prochlorococcus marinus	Xanthomonas oryzae	0
+Prochlorococcus marinus	 	2
+Xanthomonas oryzae	 	158
+Prochlorococcus marinus	Shewanella woodyi	0
+Prochlorococcus marinus	 	84
+Shewanella woodyi	 	13
+Prochlorococcus marinus	Shewanella woodyi	0
+Prochlorococcus marinus	 	2
+Shewanella woodyi	 	0
+Prochlorococcus marinus	Laribacter hongkongensis	0
+Prochlorococcus marinus	 	84
+Laribacter hongkongensis	 	51
+Prochlorococcus marinus	Laribacter hongkongensis	0
+Prochlorococcus marinus	 	2
+Laribacter hongkongensis	 	12
+Prochlorococcus marinus	Neisseria subflava	0
+Prochlorococcus marinus	 	84
+Neisseria subflava	 	117
+Prochlorococcus marinus	Neisseria subflava	0
+Prochlorococcus marinus	 	2
+Neisseria subflava	 	26
+Prochlorococcus marinus	Streptomyces sp.	0
+Prochlorococcus marinus	 	84
+Streptomyces sp.	 	3011
+Prochlorococcus marinus	Streptomyces sp.	0
+Prochlorococcus marinus	 	2
+Streptomyces sp.	 	1239
+Prochlorococcus marinus	Coprococcus catus	0
+Prochlorococcus marinus	 	84
+Coprococcus catus	 	3
+Prochlorococcus marinus	Coprococcus catus	0
+Prochlorococcus marinus	 	2
+Coprococcus catus	 	0
+Prochlorococcus marinus	Streptococcus gallolyticus	0
+Prochlorococcus marinus	 	84
+Streptococcus gallolyticus	 	157
+Prochlorococcus marinus	Streptococcus gallolyticus	0
+Prochlorococcus marinus	 	2
+Streptococcus gallolyticus	 	39
+Prochlorococcus marinus	Flavobacteriaceae bacterium	0
+Prochlorococcus marinus	 	84
+Flavobacteriaceae bacterium	 	3729
+Prochlorococcus marinus	Flavobacteriaceae bacterium	0
+Prochlorococcus marinus	 	2
+Flavobacteriaceae bacterium	 	757
+Prochlorococcus marinus	Candidatus Amoebophilus	0
+Prochlorococcus marinus	 	84
+Candidatus Amoebophilus	 	9
+Prochlorococcus marinus	Candidatus Amoebophilus	0
+Prochlorococcus marinus	 	2
+Candidatus Amoebophilus	 	0
+Prochlorococcus marinus	Natrialba magadii	0
+Prochlorococcus marinus	 	84
+Natrialba magadii	 	33
+Prochlorococcus marinus	Natrialba magadii	0
+Prochlorococcus marinus	 	2
+Natrialba magadii	 	2
+Prochlorococcus marinus	Frankia alni	0
+Prochlorococcus marinus	 	84
+Frankia alni	 	21
+Prochlorococcus marinus	Frankia alni	0
+Prochlorococcus marinus	 	2
+Frankia alni	 	0
+Prochlorococcus marinus	Methylobacter tundripaludum	0
+Prochlorococcus marinus	 	84
+Methylobacter tundripaludum	 	11
+Prochlorococcus marinus	Methylobacter tundripaludum	0
+Prochlorococcus marinus	 	2
+Methylobacter tundripaludum	 	0
+Prochlorococcus marinus	Candidatus Tremblaya	0
+Prochlorococcus marinus	 	84
+Candidatus Tremblaya	 	10
+Prochlorococcus marinus	Candidatus Tremblaya	0
+Prochlorococcus marinus	 	2
+Candidatus Tremblaya	 	0
+Prochlorococcus marinus	Intrasporangium calvum	0
+Prochlorococcus marinus	 	84
+Intrasporangium calvum	 	7
+Prochlorococcus marinus	Intrasporangium calvum	0
+Prochlorococcus marinus	 	2
+Intrasporangium calvum	 	0
+Prochlorococcus marinus	Granulicella mallensis	0
+Prochlorococcus marinus	 	84
+Granulicella mallensis	 	4
+Prochlorococcus marinus	Granulicella mallensis	0
+Prochlorococcus marinus	 	2
+Granulicella mallensis	 	0
+Prochlorococcus marinus	Prochlorococcus marinus	84
+Prochlorococcus marinus	 	84
+Prochlorococcus marinus	 	84
+Prochlorococcus marinus	Prochlorococcus marinus	2
+Prochlorococcus marinus	 	2
+Prochlorococcus marinus	 	2
+Prochlorococcus marinus	Roseburia hominis	0
+Prochlorococcus marinus	 	84
+Roseburia hominis	 	6
+Prochlorococcus marinus	Roseburia hominis	0
+Prochlorococcus marinus	 	2
+Roseburia hominis	 	1
+Prochlorococcus marinus	Salmonella enterica	0
+Prochlorococcus marinus	 	84
+Salmonella enterica	 	40859
+Prochlorococcus marinus	Salmonella enterica	0
+Prochlorococcus marinus	 	2
+Salmonella enterica	 	10947
+Prochlorococcus marinus	Geobacter sp.	0
+Prochlorococcus marinus	 	84
+Geobacter sp.	 	66
+Prochlorococcus marinus	Geobacter sp.	0
+Prochlorococcus marinus	 	2
+Geobacter sp.	 	8
+Prochlorococcus marinus	Desulfitobacterium hafniense	0
+Prochlorococcus marinus	 	84
+Desulfitobacterium hafniense	 	77
+Prochlorococcus marinus	Desulfitobacterium hafniense	0
+Prochlorococcus marinus	 	2
+Desulfitobacterium hafniense	 	5
+Prochlorococcus marinus	Gramella forsetii	0
+Prochlorococcus marinus	 	84
+Gramella forsetii	 	5
+Prochlorococcus marinus	Gramella forsetii	0
+Prochlorococcus marinus	 	2
+Gramella forsetii	 	0
+Prochlorococcus marinus	Desulfovibrio alaskensis	0
+Prochlorococcus marinus	 	84
+Desulfovibrio alaskensis	 	33
+Prochlorococcus marinus	Desulfovibrio alaskensis	0
+Prochlorococcus marinus	 	2
+Desulfovibrio alaskensis	 	2
+Prochlorococcus marinus	Erwinia pyrifoliae	0
+Prochlorococcus marinus	 	84
+Erwinia pyrifoliae	 	35
+Prochlorococcus marinus	Erwinia pyrifoliae	0
+Prochlorococcus marinus	 	2
+Erwinia pyrifoliae	 	10
+Prochlorococcus marinus	Nocardioidaceae bacterium	0
+Prochlorococcus marinus	 	84
+Nocardioidaceae bacterium	 	39
+Prochlorococcus marinus	Nocardioidaceae bacterium	0
+Prochlorococcus marinus	 	2
+Nocardioidaceae bacterium	 	1
+Prochlorococcus marinus	Aminomonas paucivorans	0
+Prochlorococcus marinus	 	84
+Aminomonas paucivorans	 	2
+Prochlorococcus marinus	Aminomonas paucivorans	0
+Prochlorococcus marinus	 	2
+Aminomonas paucivorans	 	0
+Prochlorococcus marinus	Macrococcus caseolyticus	0
+Prochlorococcus marinus	 	84
+Macrococcus caseolyticus	 	23
+Prochlorococcus marinus	Macrococcus caseolyticus	0
+Prochlorococcus marinus	 	2
+Macrococcus caseolyticus	 	4
+Prochlorococcus marinus	Streptomyces avermitilis	0
+Prochlorococcus marinus	 	84
+Streptomyces avermitilis	 	337
+Prochlorococcus marinus	Streptomyces avermitilis	0
+Prochlorococcus marinus	 	2
+Streptomyces avermitilis	 	81
+Prochlorococcus marinus	Lactobacillus oris	0
+Prochlorococcus marinus	 	84
+Lactobacillus oris	 	22
+Prochlorococcus marinus	Lactobacillus oris	0
+Prochlorococcus marinus	 	2
+Lactobacillus oris	 	5
+Prochlorococcus marinus	Ruminococcus gnavus	0
+Prochlorococcus marinus	 	84
+Ruminococcus gnavus	 	42
+Prochlorococcus marinus	Ruminococcus gnavus	0
+Prochlorococcus marinus	 	2
+Ruminococcus gnavus	 	8
+Prochlorococcus marinus	Lactobacillus iners	0
+Prochlorococcus marinus	 	84
+Lactobacillus iners	 	103
+Prochlorococcus marinus	Lactobacillus iners	0
+Prochlorococcus marinus	 	2
+Lactobacillus iners	 	15
+Prochlorococcus marinus	Vibrio caribbenthicus	0
+Prochlorococcus marinus	 	84
+Vibrio caribbenthicus	 	1
+Prochlorococcus marinus	Vibrio caribbenthicus	0
+Prochlorococcus marinus	 	2
+Vibrio caribbenthicus	 	0
+Prochlorococcus marinus	Neisseria bacilliformis	0
+Prochlorococcus marinus	 	84
+Neisseria bacilliformis	 	5
+Prochlorococcus marinus	Neisseria bacilliformis	0
+Prochlorococcus marinus	 	2
+Neisseria bacilliformis	 	2
+Prochlorococcus marinus	Cupriavidus metallidurans	0
+Prochlorococcus marinus	 	84
+Cupriavidus metallidurans	 	130
+Prochlorococcus marinus	Cupriavidus metallidurans	0
+Prochlorococcus marinus	 	2
+Cupriavidus metallidurans	 	16
+Prochlorococcus marinus	Desulfovibrio piger	0
+Prochlorococcus marinus	 	84
+Desulfovibrio piger	 	19
+Prochlorococcus marinus	Desulfovibrio piger	0
+Prochlorococcus marinus	 	2
+Desulfovibrio piger	 	3
+Prochlorococcus marinus	Deinococcus geothermalis	0
+Prochlorococcus marinus	 	84
+Deinococcus geothermalis	 	60
+Prochlorococcus marinus	Deinococcus geothermalis	0
+Prochlorococcus marinus	 	2
+Deinococcus geothermalis	 	8
+Prochlorococcus marinus	Leuconostoc mesenteroides	0
+Prochlorococcus marinus	 	84
+Leuconostoc mesenteroides	 	1022
+Prochlorococcus marinus	Leuconostoc mesenteroides	0
+Prochlorococcus marinus	 	2
+Leuconostoc mesenteroides	 	242
+Prochlorococcus marinus	Muricauda ruestringensis	0
+Prochlorococcus marinus	 	84
+Muricauda ruestringensis	 	6
+Prochlorococcus marinus	Muricauda ruestringensis	0
+Prochlorococcus marinus	 	2
+Muricauda ruestringensis	 	0
+Prochlorococcus marinus	Phascolarctobacterium succinatutens	0
+Prochlorococcus marinus	 	84
+Phascolarctobacterium succinatutens	 	1
+Prochlorococcus marinus	Phascolarctobacterium succinatutens	0
+Prochlorococcus marinus	 	2
+Phascolarctobacterium succinatutens	 	0
+Prochlorococcus marinus	Onion yellows	0
+Prochlorococcus marinus	 	84
+Onion yellows	 	33
+Prochlorococcus marinus	Onion yellows	0
+Prochlorococcus marinus	 	2
+Onion yellows	 	1
+Prochlorococcus marinus	Brachyspira hyodysenteriae	0
+Prochlorococcus marinus	 	84
+Brachyspira hyodysenteriae	 	357
+Prochlorococcus marinus	Brachyspira hyodysenteriae	0
+Prochlorococcus marinus	 	2
+Brachyspira hyodysenteriae	 	75
+Prochlorococcus marinus	Rhodopseudomonas palustris	1
+Prochlorococcus marinus	 	84
+Rhodopseudomonas palustris	 	619
+Prochlorococcus marinus	Rhodopseudomonas palustris	0
+Prochlorococcus marinus	 	2
+Rhodopseudomonas palustris	 	71
+Prochlorococcus marinus	Lactococcus lactis	0
+Prochlorococcus marinus	 	84
+Lactococcus lactis	 	4961
+Prochlorococcus marinus	Lactococcus lactis	0
+Prochlorococcus marinus	 	2
+Lactococcus lactis	 	1472
+Prochlorococcus marinus	Selenomonas flueggei	0
+Prochlorococcus marinus	 	84
+Selenomonas flueggei	 	3
+Prochlorococcus marinus	Selenomonas flueggei	0
+Prochlorococcus marinus	 	2
+Selenomonas flueggei	 	0
+Prochlorococcus marinus	Frankia sp.	0
+Prochlorococcus marinus	 	84
+Frankia sp.	 	93
+Prochlorococcus marinus	Frankia sp.	0
+Prochlorococcus marinus	 	2
+Frankia sp.	 	5
+Prochlorococcus marinus	Nitrosococcus halophilus	0
+Prochlorococcus marinus	 	84
+Nitrosococcus halophilus	 	4
+Prochlorococcus marinus	Nitrosococcus halophilus	0
+Prochlorococcus marinus	 	2
+Nitrosococcus halophilus	 	0
+Prochlorococcus marinus	Jannaschia sp.	0
+Prochlorococcus marinus	 	84
+Jannaschia sp.	 	18
+Prochlorococcus marinus	Jannaschia sp.	0
+Prochlorococcus marinus	 	2
+Jannaschia sp.	 	0
+Prochlorococcus marinus	Alkaliphilus metalliredigens	0
+Prochlorococcus marinus	 	84
+Alkaliphilus metalliredigens	 	6
+Prochlorococcus marinus	Alkaliphilus metalliredigens	0
+Prochlorococcus marinus	 	2
+Alkaliphilus metalliredigens	 	1
+Prochlorococcus marinus	Synechocystis sp.	7
+Prochlorococcus marinus	 	84
+Synechocystis sp.	 	2280
+Prochlorococcus marinus	Synechocystis sp.	1
+Prochlorococcus marinus	 	2
+Synechocystis sp.	 	274
+Prochlorococcus marinus	Thioalkalivibrio sp.	0
+Prochlorococcus marinus	 	84
+Thioalkalivibrio sp.	 	11
+Prochlorococcus marinus	Thioalkalivibrio sp.	0
+Prochlorococcus marinus	 	2
+Thioalkalivibrio sp.	 	2
+Prochlorococcus marinus	Conexibacter woesei	0
+Prochlorococcus marinus	 	84
+Conexibacter woesei	 	5
+Prochlorococcus marinus	Conexibacter woesei	0
+Prochlorococcus marinus	 	2
+Conexibacter woesei	 	0
+Prochlorococcus marinus	Corynebacterium accolens	0
+Prochlorococcus marinus	 	84
+Corynebacterium accolens	 	16
+Prochlorococcus marinus	Corynebacterium accolens	0
+Prochlorococcus marinus	 	2
+Corynebacterium accolens	 	7
+Prochlorococcus marinus	Providencia alcalifaciens	0
+Prochlorococcus marinus	 	84
+Providencia alcalifaciens	 	130
+Prochlorococcus marinus	Providencia alcalifaciens	0
+Prochlorococcus marinus	 	2
+Providencia alcalifaciens	 	22
+Prochlorococcus marinus	Capnocytophaga ochracea	0
+Prochlorococcus marinus	 	84
+Capnocytophaga ochracea	 	182
+Prochlorococcus marinus	Capnocytophaga ochracea	0
+Prochlorococcus marinus	 	2
+Capnocytophaga ochracea	 	43
+Prochlorococcus marinus	Gluconacetobacter xylinus	0
+Prochlorococcus marinus	 	84
+Gluconacetobacter xylinus	 	343
+Prochlorococcus marinus	Gluconacetobacter xylinus	0
+Prochlorococcus marinus	 	2
+Gluconacetobacter xylinus	 	31
+Prochlorococcus marinus	Escherichia albertii	0
+Prochlorococcus marinus	 	84
+Escherichia albertii	 	39
+Prochlorococcus marinus	Escherichia albertii	0
+Prochlorococcus marinus	 	2
+Escherichia albertii	 	4
+Prochlorococcus marinus	Cellulomonas flavigena	0
+Prochlorococcus marinus	 	84
+Cellulomonas flavigena	 	54
+Prochlorococcus marinus	Cellulomonas flavigena	0
+Prochlorococcus marinus	 	2
+Cellulomonas flavigena	 	3
+Prochlorococcus marinus	Desulfarculus baarsii	0
+Prochlorococcus marinus	 	84
+Desulfarculus baarsii	 	2
+Prochlorococcus marinus	Desulfarculus baarsii	0
+Prochlorococcus marinus	 	2
+Desulfarculus baarsii	 	0
+Prochlorococcus marinus	Streptococcus anginosus	0
+Prochlorococcus marinus	 	84
+Streptococcus anginosus	 	525
+Prochlorococcus marinus	Streptococcus anginosus	0
+Prochlorococcus marinus	 	2
+Streptococcus anginosus	 	145

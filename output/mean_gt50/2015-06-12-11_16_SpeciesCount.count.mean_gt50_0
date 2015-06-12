@@ -1,0 +1,16 @@
+#negTerm: (Antagon*|outcompet*| lethal| sublethal| kill*| predat*| anticorrelated| lyse*| compet*|suppress*|  bacteriocin*|antibacterial | viab*)
+#row1-3: raw query | both species, species 1, species 2
+#row4-6: with negTerm | both species, species 1, species 2
+#Target File:input/tests/SpeciesCount.count.mean_gt50/SpeciesCount.count.mean_gt50_0.pairs
+Eubacterium dolichum	Turicibacter sanguinis	0
+Eubacterium dolichum	 	2
+Turicibacter sanguinis	 	3
+Eubacterium dolichum	Turicibacter sanguinis	0
+Eubacterium dolichum	 	1
+Turicibacter sanguinis	 	0
+Eubacterium dolichum	Enterococcus casseliflavus	0
+Eubacterium dolichum	 	2
+Enterococcus casseliflavus	 	389
+Eubacterium dolichum	Enterococcus casseliflavus	0
+Eubacterium dolichum	 	1
+Enterococcus casseliflavus	 	187

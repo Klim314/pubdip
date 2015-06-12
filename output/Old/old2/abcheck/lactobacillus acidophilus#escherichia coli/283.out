@@ -1,0 +1,14 @@
+positive selection, cloning vectors for gram-positive bacteria based on a restriction endonuclease cassette.
+lactococcus lactis contains numerous restriction and modification (r/m) systems of different specificities.
+a novel iis type r/m system encoded by the llai operon has previously been characterized from the l. lactis conjugative plasmid ptr2030.
+the llai operon is composed of six genes: first, a small regulatory gene llaic precedes the methylase gene llaim.
+the following three genes, llai.1, llai.2, llai.3, are all essential for restriction endonuclease activity and are designed as the restriction cassette llair.
+the forth open reading frame of unknown function follows the llair gene cassette.
+we have successfully subcloned the three llair genes, llai.1, llai.2, and llai.3, without llaim, as a suicide cassette into the three shuttle vectors ptrkl2, ptrkh2, and pbv5030.
+a promoter (p6) from lactobacillus acidophilus atcc4356, which is functional in e. coli, lactococci, and lactobacilli (djordjevic and topisirovic, unpublished) was cloned upstream of the three gene cassette.
+restriction activity was evaluated in escherichia coli and several gram-positive bacteria.
+the llair restriction cassette was not functional in e. coli, but its presence was lethal to l. lactis, lactobacillus gasseri, lactobacillus plantarum, lactobacillus johnsonii, lactobacillus acidophilus, carnobacterium pisicola, enterococcus faecalis, bacillus subtilis, and leuconostoc gelidum.
+several novel, positive selection cloning vectors were developed that can exploit unique cloning sites within the llair cassette.
+insertions in llai.1 resulted in complete inactivation of restriction activity and provided unconditional selection for recombinant plasmids in surviving transformants.
+these positive selection cloning vectors are the first for gram-positive bacteria that are based on a restriction endonuclease cassette.
+functional activity of the llair genes in various gram-positive bacteria would also enable use of these cloning vectors for positive selection of promoters, terminators, and regulatory sequences across these genera.

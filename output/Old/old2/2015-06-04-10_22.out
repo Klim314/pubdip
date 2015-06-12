@@ -1,0 +1,46 @@
+#negTerm: (Antagon*|outcompet*| lethal| sublethal| kill*| predat*| anticorrelated| lyse*| compet*|suppress*|  bacteriocin*| bacteriocin|antibacterial | viab*)
+#row1-3: raw query | both species, species 1, species 2
+#row4-6: with negTerm | both species, species 1, species 2
+#Target File:input/smallSpecies
+Actinomyces sp.	Bacteroides coprocola	0
+Actinomyces sp.	 	6720
+Bacteroides coprocola	 	3
+Actinomyces sp.	Bacteroides coprocola	0
+Actinomyces sp.	 	1936
+Bacteroides coprocola	 	0
+lactobacillus acidophilus	escherichia coli	415
+lactobacillus acidophilus	 	3062
+escherichia coli	 	325911
+lactobacillus acidophilus	escherichia coli	170
+lactobacillus acidophilus	 	1059
+escherichia coli	 	83487
+Actinomyces coleocanis	Pseudomonas syringae	0
+Actinomyces coleocanis	 	1
+Pseudomonas syringae	 	3601
+Actinomyces coleocanis	Pseudomonas syringae	0
+Actinomyces coleocanis	 	0
+Pseudomonas syringae	 	940
+Actinomyces sp.	Bacteroides coprosuis	0
+Actinomyces sp.	 	6720
+Bacteroides coprosuis	 	4
+Actinomyces sp.	Bacteroides coprosuis	0
+Actinomyces sp.	 	1936
+Bacteroides coprosuis	 	0
+Actinomyces sp.	Bacteroides sp.	37
+Actinomyces sp.	 	6720
+Bacteroides sp.	 	763
+Actinomyces sp.	Bacteroides sp.	11
+Actinomyces sp.	 	1936
+Bacteroides sp.	 	240
+Actinomyces coleocanis	Dermacoccus sp.	0
+Actinomyces coleocanis	 	1
+Dermacoccus sp.	 	12
+Actinomyces coleocanis	Dermacoccus sp.	0
+Actinomyces coleocanis	 	0
+Dermacoccus sp.	 	1
+Actinomyces sp.	Bacteroides finegoldii	0
+Actinomyces sp.	 	6720
+Bacteroides finegoldii	 	7
+Actinomyces sp.	Bacteroides finegoldii	0
+Actinomyces sp.	 	1936
+Bacteroides finegoldii	 	0

@@ -1,0 +1,11 @@
+#negTerm: (Antagon*|outcompet*| lethal| sublethal| kill*| predat*| anticorrelated| lyse*| compet*|suppress*|  bacteriocin*|antibacterial | viab*)
+#row1-3: raw query | both species, species 1, species 2
+#row4-6: with negTerm | both species, species 1, species 2
+#Target File:input/smallSpecies
+lactobacillus acidophilus	escherichia coli	415
+Actinomyces coleocanis	Dermacoccus sp.	0
+Actinomyces coleocanis	Pseudomonas syringae	0
+Actinomyces sp.	Bacteroides coprocola	0
+Actinomyces sp.	Bacteroides coprosuis	0
+Actinomyces sp.	Bacteroides finegoldii	0
+Actinomyces sp.	Bacteroides sp.	37
